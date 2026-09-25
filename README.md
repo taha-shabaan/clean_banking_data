@@ -1,7 +1,5 @@
 # Clean Banking Marketing Data
 
-Piggy bank
-
 Personal loans are a major revenue line for retail banks. Typical two-year personal loan rates in the United Kingdom sit [around 10%](https://www.experian.com/blogs/ask-experian/whats-a-good-interest-rate-for-a-personal-loan/). In September 2022 alone, UK consumers borrowed [roughly £1.5 billion](https://www.ukfinance.org.uk/system/files/2022-12/Household%20Finance%20Review%202022%20Q3-%20Final.pdf)—on that scale, interest income over a two-year term is on the order of **£300 million** for the lending sector.
 
 This project supports a bank that ran a **marketing campaign to promote personal loans**. The bank needs campaign data cleaned, typed, and split into a **stable relational shape** so it can be loaded into **PostgreSQL** and reused for **future campaigns** without rework.
