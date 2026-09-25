@@ -209,8 +209,3 @@ Before handoff to the database team:
 
 ---
 
-
-
-## License and data
-
-`bank_marketing.csv` is provided for this exercise. Do not treat it as live production PII; handle according to your organization’s data policies when extending the project.
