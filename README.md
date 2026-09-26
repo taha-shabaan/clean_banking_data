@@ -112,7 +112,7 @@ Contact history and outcomes for the current and previous campaign.
 | `last_contact_date`          | `datetime` | Date of last contact in this campaign         | Build from `day`, `month`, and `year = 2022`; export as `YYYY-MM-DD`                          |
 
 
-**Date construction:** Source `month` values are lowercase abbreviations (e.g. `may`, `jul`). Parse with a fixed year of **2022** and combine with `day` to form a valid calendar date.
+1. **Date construction:** Source `month` values are lowercase abbreviations (e.g. `may`, `jul`). Parse with a fixed year of **2022** and combine with `day` to form a valid calendar date.
 
 **PostgreSQL note:** `last_contact_date` → `DATE`; boolean flags as above; `client_id` → `INTEGER` referencing `client(client_id)`.
 
