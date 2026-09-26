@@ -125,11 +125,11 @@ Contact history and outcomes for the current and previous campaign.
 Macro indicators linked to each client at campaign time.
 
 
-| Column                 | Data type | Description                                | Cleaning requirements |
-| ---------------------- | --------- | ------------------------------------------ | --------------------- |
-| `client_id`            | `integer` | Client ID                                  | N/A                   |
-| `cons_price_idx`       | `float`   | Consumer price index (monthly indicator)   | N/A                   |
-| `euribor_three_months` | `float`   | Euribor three-month rate (daily indicator) | N/A                   |
+| Column                 | Data type    | Description                                | Cleaning requirements |
+| ---------------------- | ------------ | ------------------------------------------ | --------------------- |
+| `client_id`            | `integer`    | Client ID                                  | N/A                   |
+| `cons_price_idx`       | `floatfloat` | Consumer price index (monthly indicator)   | N/A                   |
+| `euribor_three_months` | `float`      | Euribor three-month rate (daily indicator) | N/A                   |
 
 
 **PostgreSQL note:** `DOUBLE PRECISION` or `NUMERIC`; `client_id` → `INTEGER` referencing `client(client_id)`.
